@@ -24,7 +24,7 @@ By default, cloned Git repos have a remote *named* ***origin***, which refers to
 | `git stash pop`                | Apply stashed changes and remove them from the stash | -               |
 | `git remote add [name] [url]`  | Connect to a remote repository       | -                                 |
 
-### Set remote origin on local repo
+## Set remote origin on local repo
 | Command                        | Use                                  | Notes                             |
 |--------------------------------|--------------------------------------|-----------------------------------|
 | `git remote add origin <URL>`| **Add** a new remote named origin to  local Git repo |  If there is no remote named origin yet associated with local repo                                 |
