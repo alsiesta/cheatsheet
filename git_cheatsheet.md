@@ -7,7 +7,7 @@ By default, cloned Git repos have a remote *named* ***origin***, which refers to
 | `git add [file]`               | Add a file to the staging area       | Use `.` to add all files          |
 | `git commit -m "[message]"`    | Commit your changes                  | -                                 |
 | `git status`                   | Check the status of changes          | -                                 |
-| `git remote -v`                | List all remote connections              | Usefull, if remote is not named origin                                 |
+| `git remote -v`                 | List all remote connections              | Usefull, if remote is not named origin                                 |
 | `git ls-remote --get-url origin`   | Get remote origin URL    |       |
 | `git remote show origin`   | Get all details of remote origin    |       |
 | . . .   | . . .    | . . .       |
@@ -23,3 +23,9 @@ By default, cloned Git repos have a remote *named* ***origin***, which refers to
 | `git stash`                    | Stash changes in a dirty working directory | -                             |
 | `git stash pop`                | Apply stashed changes and remove them from the stash | -               |
 | `git remote add [name] [url]`  | Connect to a remote repository       | -                                 |
+
+# Set local repo as new remote origin
+| Command                        | Use                                  | Notes                             |
+|--------------------------------|--------------------------------------|-----------------------------------|
+| `git remote add origin <URL>`| **Add** a new remote named origin to  local Git repo |  If there is no remote named origin yet associated with local repo                                 |
+| `git remote set-url origin <URL>`| **Change** the URL of local remote repo named origin |  Needed if remote repo has moved to a different URL|
