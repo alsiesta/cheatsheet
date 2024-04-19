@@ -1,6 +1,3 @@
-Here's a Git cheat sheet in markdown format:
-
-```markdown
 # Git Cheat Sheet
 
 | Command                        | Use                                  | Notes                             |
@@ -23,6 +20,3 @@ Here's a Git cheat sheet in markdown format:
 | `git stash pop`                | Apply stashed changes and remove them from the stash | -               |
 | `git remote add [name] [url]`  | Connect to a remote repository       | -                                 |
 | `git remote -v`                | List remote connections              | -                                 |
-```
-
-This cheat sheet covers basic Git commands and their uses along with some brief notes where applicable.
