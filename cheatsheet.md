@@ -2,7 +2,7 @@
 
 | Model Field     | Use               | Sensible defaults                 |
 |-----------------|-------------------|-----------------------------------|
-| `CharField`     | Small text        | `blank=False, null=False, max_length=150` |
+| CharField     | Small text        | blank=False, null=False, max_length=150 |
 | `TextField`     | Large text        | `blank=False, null=False, max_length=150` |
 | `BooleanField`  | Flags             | `default=False`                   |
 | `DateField`     | Dates             | `auto_now_add=True`               |
