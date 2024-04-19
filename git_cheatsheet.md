@@ -1,5 +1,5 @@
 # Git Cheat Sheet
-
+By default, cloned Git repos have a remote *named* ***origin***, which refers to the remote repository from which it was cloned.               
 | Command                        | Use                                  | Notes                             |
 |--------------------------------|--------------------------------------|-----------------------------------|
 | `git init`                     | Initialize a new git repository      | -                                 |
@@ -7,6 +7,9 @@
 | `git add [file]`               | Add a file to the staging area       | Use `.` to add all files          |
 | `git commit -m "[message]"`    | Commit your changes                  | -                                 |
 | `git status`                   | Check the status of changes          | -                                 |
+| `git remote -v`                | List all remote connections              | Usefull, if remote is not named origin                                 |
+| `git ls-remote --get-url origin`   | Get remote origin URL    |       |
+| `git remote show origin`   | Get all details of remote origin    |       |
 | `git push [remote] [branch]`   | Push changes to remote repository    | Defaults to `origin master`       |
 | `git pull [remote] [branch]`   | Pull updates from remote repository  | -                                 |
 | `git branch [branch-name]`     | Create a new branch                  | -                                 |
@@ -19,4 +22,3 @@
 | `git stash`                    | Stash changes in a dirty working directory | -                             |
 | `git stash pop`                | Apply stashed changes and remove them from the stash | -               |
 | `git remote add [name] [url]`  | Connect to a remote repository       | -                                 |
-| `git remote -v`                | List remote connections              | -                                 |
