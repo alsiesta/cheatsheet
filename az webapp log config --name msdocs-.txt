@@ -1,0 +1,8 @@
+az webapp log config --name msdocs-python-webapp-quickstart-django1 --resource-group appsvc_linux_centralus --docker-container-logging filesystem
+
+az webapp log tail --name msdocs-python-webapp-quickstart-django1 --resource-group appsvc_linux_centralus
+
+
+az webapp log config --name relecloudtut --resource-group rg-django2 --docker-container-logging filesystem
+
+az webapp log tail --name relecloudtut --resource-group rg-django2
